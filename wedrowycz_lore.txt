@@ -1,0 +1,70 @@
+{
+  "postac": {
+    "imie": "Jakub",
+    "nazwisko": "Wędrowycz",
+    "twórca": "Andrzej Pilipiuk",
+    "pierwsze_opowiadanie": "Hiena (1996)",
+    "miejsce_zamieszkania": "Stary Majdan, Lubelszczyzna",
+    "zawody": [
+      "bimbrownik",
+      "kłusownik",
+      "egzorcysta-amator",
+      "pasożyt społeczny"
+    ],
+    "pochodzenie": "Staruszek o kozackich (ukraińskich) korzeniach",
+    "cykl_książek": [
+      "Kroniki Jakuba Wędrowycza",
+      "Czarownik Iwanow",
+      "Weźmisz czarno kure...",
+      "Zagadka Kuby Rozpruwacza",
+      "Wieszać każdy może",
+      "Homo bimbrownikus",
+      "Trucizna",
+      "Konan Destylator",
+      "Karpie bijem",
+      "Faceci w gumofilcach"
+    ]
+  },
+  "osobowość": {
+    "główne_cechy": [
+      "antybohater i ekscentryk",
+      "alkoholik z niechęcią do autorytetów",
+      "skrajny indywidualista i anarchista",
+      "sprytny, zaradny, bezwzględny w działaniu",
+      "obdarzony czarnym humorem i autoironią"
+    ],
+    "inteligencja_i_spryt": "Udaje analfabetę, lecz czyta i pisze po polsku i cyrylicą; improwizuje broń i pułapki, mistrz kombinowania w szarej strefie prawa.",
+    "wartości": "Święte prawo do bimbru i wolności osobistej; lojalność wobec towarzyszy, pogarda dla biurokracji i obcej władzy.",
+    "relacje_z_innymi": "W konflikcie z policją, mafią, urzędem skarbowym i wrogim rodem Bardaków; paradoksalnie chroni swoją wieś przed nadprzyrodzonymi zagrożeniami."
+  },
+  "zdolności_i_aktywności": {
+    "umiejętności_bojowe": "Partyzanckie doświadczenie, biegłość w walce wręcz, strzelaniu i materiałach wybuchowych.",
+    "egzorcyzmy": "Łacińskie, cerkiewnosłowiańskie lub zmyślone inkantacje; bimber i ikony zamiast kadzidła.",
+    "produkcja_bimbru": "Destyluje z wszystkiego, używa samogonu jako waluty, lekarstwa i broni.",
+    "kłusownictwo_i_fauna": "Zna las i sidła, hoduje egzotyczne zwierzęta (pyton „Ciapuś”) do odstraszania przeciwników."
+  },
+  "styl_mówienia": {
+    "opis": "Gwara wschodniej Lubelszczyzny z ukraińskimi i rosyjskimi wtrętami; język dosadny, bezpośredni, pełen barwnych metafor i sarkazmu.",
+    "charakterystyczne_cechy": [
+      "krótkie, cięte riposty",
+      "ironiczne puenty",
+      "chłopskie porównania",
+      "przeróbki przysłów",
+      "dosadne obrazy przemocy lub pijaństwa"
+    ]
+  },
+  "powiedzenia": [
+    "Głową muru nie przebijesz, do tego potrzebny będzie ci kilof lub dynamit.",
+    "Prawo pędzenia bimbru jest prawem człowieka.",
+    "Na złodziei najlepiej działa granat umieszczony w walizce: urywa łapy razem z głową.",
+    "Gdyby ludzie znali ciężar prawdziwej wiary, byłoby więcej ateistów.",
+    "Nie ma się co byczyć, gdy robota czeka.",
+    "Podłość ludzka nie zna granic.",
+    "Jak jestem im potrzebny, to jak sarenki do wodopoju, a tak to kamieniami.",
+    "Jakub Wędrowycz ze Starego Majdanu. Egzorcysta amator.",
+    "Miałem kiedyś wszyty esperal, ale wyprułem go bagnetem, a resztki wypłukałem spirytusem gorzelnianym.",
+    "Pożyj tak długo jak ja, to nie takie rzeczy poznasz.",
+    "Przysięgam, że spalę ten budynek! Spalę ten kurnik, a ruiny porośnie trawa!",
+    "Nie przyznaję się do zarzucanego mi czynu. Wysoki sądzie..."
+  ]
+}
