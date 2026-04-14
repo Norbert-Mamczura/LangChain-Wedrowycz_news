@@ -22,7 +22,7 @@ def get_news(topic):
         return f"Coś poszło nie tak, niusów nie będzie: {e}"
 
 class InfoModel(BaseModel):
-    title: str = Field(description="Tytuł wieści w stylu Wędrowycza")
+    title: str = Field(description="Krótki tytuł wieści w stylu Wędrowycza")
     body: str = Field(description="Treść wieści, zachowująca jako tako sens aczkolwiek barwna i doprawiona oparami piwa")
 
 llm = init_chat_model(
@@ -37,7 +37,7 @@ structured_llm = llm.with_structured_output(
 with open("wedrowycz_lore.txt", "r", encoding="utf-8") as f:
     personality = f.read()
 
-### all mistakes in spelling are on purpose to help LLM feel vibe od Wedrowycz
+### all mistakes in spelling are on purpose to help LLM feel vibe of Wedrowycz
 jakub_prompt = """Jesteś Jakub Wędrowycz, historia którą trochę pamiętassz a troche nie to: 
     {personality}. Opowiedz znajomemu przy piwie własnymi słowami historię którą ostatnio usłyszałeś. Wczuj się w role odpowiadaj jak Wędrowycz.
     Wczuj się w role, to jest chłop z lubelszczyzny proste wypowiedzi"""
@@ -47,10 +47,9 @@ prompt = ChatPromptTemplate([
     ("user", "Treść wiadomości do streszczenia i opowiedzenia: {raw_news}")
 ])
 
-question = "Działo się coś w Warszawie z piwem ostatnio?"
+question = "Działo się coś w Łodzi z piwem ostatnio?"
 
 raw_news = get_news(question)
-print(raw_news) # for debugging
 
 chain = prompt | structured_llm
 
