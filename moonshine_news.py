@@ -1,7 +1,6 @@
 from pydantic import BaseModel, Field
 from langchain.chat_models import init_chat_model
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from openai import OpenAI
 import os
 
@@ -23,7 +22,7 @@ def get_news(topic):
 
 class InfoModel(BaseModel):
     title: str = Field(description="Krótki tytuł wieści w stylu Wędrowycza")
-    body: str = Field(description="Treść wieści, zachowująca jako tako sens aczkolwiek barwna i doprawiona oparami piwa")
+    body: str = Field(description="Treść wieści, zachowująca jako tako sens aczkolwiek barwna, w stylu gawędziarskim i doprawiona oparami piwa")
 
 llm = init_chat_model(
     api_key = API_KEY,
